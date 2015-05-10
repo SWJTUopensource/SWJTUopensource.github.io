@@ -1,29 +1,24 @@
 ---
-layout: default
+layout: page
+date: 2015-05-10 22:41
+comments: false
+sharing: false
+footer: false
 ---
+<p>西南交通大学开源社区(swjtuosc)是由在校的计算机技术爱好者发起并组成的全校性群众公益团体，是一个以推广自由软件文化，交流技术经验为主的信息交流共享的平台。</p>
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+<p>开源社区正式成立时间为2014年5月，是西南交通大学第一个以技术交流和宣传自由软件文化为主的独立于学校社团的自由组织。在社区成员的努力下，目前社区已经独立运营了社区邮件列表，Github社区两大部分。社区邮件列表是社区进行技术交流与自由文化交流的主要载体，使用开源的Mailman搭建。Github社区主要用来存放社区成员的优秀的个人或团体项目代码，促进社区成员之间的技术交流。</p>
+
+<h2>特色活动</h2>
+
+<h3>Linux主题宣讲</h3>
+
+<p>主旨在于推广和安装 Linux，宣传和鼓励开源和自由软件精神。活动可以让同学们亲身“无痛”体验 Linux 系统，在安装 Linux 环节有专人指导，同时可以交流了解 Linux 的相关知识。每次宣讲包含几个面向入门用户的讲座，手把手的安装，近距离的自由交流等环节。 </p>
+
+<h3>自由软件日</h3>
+
+<p>自由软件日是在国际自由软件基金会（SFI）的领导下，由自由/开源软件爱好者自发筹集的非盈利性活动。旨在为自由/开源软件爱好者提供一个信息交流平台，以及联合各社区举办各种自由/开源软件活动。 </p>
+
+<h3>专题分享</h3>
+
+<p>每期由至少三位同学做技术分享研究，欢迎所有师生参与。具体时间、地点和内容会提前一周发到邮件列表。想要报名宣讲的同学请发邮件到邮件列表，并注明自己想要宣讲的技术主题（主题不限）</p>
