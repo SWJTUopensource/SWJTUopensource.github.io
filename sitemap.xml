@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.swjtuosc.net/blog/2015/08/31/ma-yi-ptjian-jie/</loc>
+    <lastmod>2015-08-31T22:59:34+08:00</lastmod>
+  </url>
+  <url>
     <loc>http://www.swjtuosc.net/blog/2015/03/16/why-we-established-swjtuosc/</loc>
     <lastmod>2015-03-16T23:21:00+08:00</lastmod>
   </url>
@@ -8,12 +12,15 @@
     <loc>http://www.swjtuosc.net/</loc>
   </url>
   <url>
-    <loc>http://www.swjtuosc.net/blog/</loc>
-  </url>
-  <url>
     <loc>http://www.swjtuosc.net/blog/archives/</loc>
   </url>
   <url>
+    <loc>http://www.swjtuosc.net/blog/</loc>
+  </url>
+  <url>
     <loc>http://www.swjtuosc.net/blog/categories/opensource/</loc>
+  </url>
+  <url>
+    <loc>http://www.swjtuosc.net/blog/categories/pt/</loc>
   </url>
 </urlset>
