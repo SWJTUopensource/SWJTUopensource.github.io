@@ -1,0 +1,33 @@
+$pane_donate-width-wide: $sidebar-width-wide - 2 * $sidebar-pad-wide;
+$pane_donate-width-medium: $sidebar-width-medium - $sidebar-pad-medium * 2;
+
+@mixin collapse-pane_donate {
+   background-size: $pane_donate-width-wide;
+   height: $pane_donate-width-wide * 150 / 115.2;
+   width: $pane_donate-width-wide;
+}
+
+#pane_donate {
+  background-image: url('/images/qrcode-donate.jpg');
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 0px auto;
+
+  @include collapse-pane_donate;
+}
+
+@media only screen and (min-width: 750px) {
+  #pane_donate { @include collapse-pane_donate;  }
+}
+
+@media only screen and (min-width: 768px) {
+  #pane_donate {
+     background-size: $pane_donate-width-medium;
+     height: $pane_donate-width-medium * 150 / 115.2;
+     width: $pane_donate-width-medium;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #pane_donate { @include collapse-pane_donate;  }
+}
